@@ -8,7 +8,7 @@ export default function Header() {
 
       <ul>
         <li>
-          <Link href={"/camp"}>the camp.</Link>
+          <Link href={"/camp"}>the camp//.</Link>
         </li>
         <li>
           <Link href={"/camp"}>the experience.</Link>
