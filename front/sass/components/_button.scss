@@ -1,0 +1,15 @@
+.btn {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 117%;
+
+  &--black {
+    background: #000;
+    color: #fff;
+  }
+
+  &--small {
+    padding: 12px 19px;
+    border-radius: 25px;
+  }
+}

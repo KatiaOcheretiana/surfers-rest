@@ -1,0 +1,47 @@
+.footer {
+  //   padding: 60px 48px 45px;
+  padding: 6rem 4.8rem 4.5rem;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    height: 12.3rem;
+    width: 8rem;
+    // height: 123px;
+    // width: 80px;
+    stroke: white;
+  }
+
+  &__nav {
+    display: flex;
+    // gap: 63px;
+    gap: 6.3rem;
+
+    list-style: none;
+    font-weight: 700;
+
+    padding-right: 6rem;
+  }
+
+  &__policy-list {
+    display: flex;
+    gap: 43px;
+
+    font-size: 20px;
+    list-style: none;
+  }
+
+  &__rules {
+    font-size: 20px;
+  }
+}

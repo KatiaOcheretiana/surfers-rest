@@ -1,0 +1,185 @@
+/*
+0 - 900px:     Phone
+900 - 1200px:  Tablet landscape
+1200 - 1800px: Desktop
+1800px+:       Big desktop
+
+$breakpoint argument choices:
+- phone
+- tab-land
+- big-desktop
+
+1em = 16px
+*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@300;400;500&display=swap");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DM Serif Display", serif;
+}
+
+h1 {
+  font-size: 10rem;
+  line-height: 12rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+h3 {
+  font-size: 6rem;
+  line-height: 7rem;
+}
+
+h4 {
+  font-size: 4rem;
+  line-height: 4.7rem;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+.copy {
+  font-size: 2rem;
+}
+
+.copy-small {
+  font-size: 15px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: #fffbf4;
+}
+
+main {
+  min-height: calc(100vh - 13rem);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+a.btn {
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 400;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 4.8rem;
+}
+.header__logo {
+  stroke: black;
+  width: 5rem;
+  height: 7.7rem;
+}
+.header__nav {
+  display: flex;
+  list-style: none;
+  gap: 4.5rem;
+}
+
+.footer {
+  padding: 6rem 4.8rem 4.5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo {
+  height: 12.3rem;
+  width: 8rem;
+  stroke: white;
+}
+.footer__nav {
+  display: flex;
+  gap: 6.3rem;
+  list-style: none;
+  font-weight: 700;
+  padding-right: 6rem;
+}
+.footer__policy-list {
+  display: flex;
+  gap: 43px;
+  font-size: 20px;
+  list-style: none;
+}
+.footer__rules {
+  font-size: 20px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 117%;
+}
+.btn--black {
+  background: #000;
+  color: #fff;
+}
+.btn--small {
+  padding: 12px 19px;
+  border-radius: 25px;
+}/*# sourceMappingURL=main.css.map */
