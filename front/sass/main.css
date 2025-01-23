@@ -12,45 +12,6 @@ $breakpoint argument choices:
 1em = 16px
 */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@300;400;500&display=swap");
-h1,
-h2,
-h3,
-h4 {
-  font-family: "DM Serif Display", serif;
-}
-
-h1 {
-  font-size: 10rem;
-  line-height: 12rem;
-  font-weight: 500;
-}
-
-h2 {
-  font-size: 8rem;
-}
-
-h3 {
-  font-size: 6rem;
-  line-height: 7rem;
-}
-
-h4 {
-  font-size: 4rem;
-  line-height: 4.7rem;
-}
-
-h5 {
-  font-size: 3rem;
-}
-
-.copy {
-  font-size: 2rem;
-}
-
-.copy-small {
-  font-size: 15px;
-}
-
 *,
 *::after,
 *::before {
@@ -117,7 +78,50 @@ html {
   font-weight: bold;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DM Serif Display", serif;
+}
+
+h1 {
+  font-size: 10rem;
+  line-height: 12rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+h3 {
+  font-size: 6rem;
+  line-height: 7rem;
+}
+
+h4 {
+  font-size: 4rem;
+  line-height: 4.7rem;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+.copy {
+  font-size: 2rem;
+}
+
+.copy-small {
+  font-size: 15px;
+}
+
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -182,4 +186,64 @@ html {
 .btn--small {
   padding: 12px 19px;
   border-radius: 25px;
-}/*# sourceMappingURL=main.css.map */
+}
+.btn--medium {
+  padding: 1.6rem 3.4rem;
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.btn--turquoise {
+  background-color: #14a998;
+  color: white;
+}
+.btn--orange {
+  background-color: #ce822f;
+  color: white;
+}
+
+.hero {
+  position: relative;
+  height: 83rem;
+  width: 100%;
+  padding: 22rem 4.6rem 12.5rem;
+  margin-bottom: 9rem;
+}
+.hero__image-bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.hero__image-bg-wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+.hero__title {
+  margin-bottom: 6.5rem;
+  width: 48rem;
+}
+.hero__title--orange {
+  color: white;
+}
+.hero__icon {
+  width: 12rem;
+  height: 18.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.hero__icon--turquoise {
+  stroke: black;
+}
+.hero__icon--orange {
+  stroke: #ce822f;
+}
+
+/*# sourceMappingURL=main.css.map */
