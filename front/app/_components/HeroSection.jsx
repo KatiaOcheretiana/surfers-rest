@@ -8,7 +8,7 @@ export default function HeroSection({ theme, image, title }) {
     <section className="hero">
       <div>
         <div className="hero__image-bg-wrapper">
-          <Image src={image} alt="hero image" fill priority />
+          <Image src={image} alt="hero image" priority />
         </div>
 
         <h1 className={`hero__title hero__title--${theme}`}>{title}</h1>
